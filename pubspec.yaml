@@ -10,9 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
   hive:
-    path: ../hive
+    git:
+      url: https://github.com/ExploreLtd/hive.git
+      ref: main
   path_provider: ^2.1.5
   path: ^1.9.1
 
